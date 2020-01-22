@@ -11,7 +11,7 @@ public class Runner {
             if(scanner.hasNextInt()) {
                 int input = scanner.nextInt();
                 if (input == ActionType.EXIT.getIndex()) {
-                    System.out.println("Phone Book Has Closed.");
+                    System.out.println("Ph Book Has Closed.");
                     break;
                 } else if (input == ActionType.ADD.getIndex()) {
                     System.out.println("Enter name: ");

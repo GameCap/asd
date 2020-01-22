@@ -17,10 +17,10 @@ public class PhoneBook {
     public void del(int id){
         contacts.remove(--id);
     }
-    public ArrayList<Contact> find(String value){
+    public ArrayList<Contact> find(String val){
         ArrayList<Contact> result=new ArrayList<>();
         for (Contact contact : contacts) {
-            if (contact.getName().startsWith(value)  || contact.getPhone().endsWith(value)){
+            if (contact.getName().startsWith(val)  || contact.getPhone().endsWith(val)){
                 result.add(contact);
             }
         }
