@@ -10,7 +10,7 @@ public class Contact {
         this.birthday=birthday;
     }
     public String toString(){
-        return name + " ; " + phone + "; " + birthday + ";";
+        return name + "; " + phone + "; " + birthday + ";";
     }
 
 

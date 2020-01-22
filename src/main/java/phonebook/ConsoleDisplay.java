@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class ConsoleDisplay {
     public static void printMenu() {
         System.out.println(String.format("%s - ADD; %s - DELETE; %s - UPDATE; %s - SHOW;" +
-                        " %s - FIND ; %s - SAVE; %s - EXIT", ActionType.ADD.getIndex(), ActionType.DELETE.getIndex(), ActionType.UPDATE.getIndex(),
+                        " %s - FIND; %s - SAVE; %s - EXIT", ActionType.ADD.getIndex(), ActionType.DELETE.getIndex(), ActionType.UPDATE.getIndex(),
                 ActionType.SHOW.getIndex(), ActionType.FIND.getIndex(), ActionType.SAVE.getIndex(), ActionType.EXIT.getIndex()
         ));
     }

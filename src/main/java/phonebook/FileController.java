@@ -13,7 +13,7 @@ public class FileController {
             }
             fstream.close();
         } catch (IOException e) {
-            System.out.println(" Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }
