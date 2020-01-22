@@ -1,0 +1,3 @@
+Valera; 066; 15;
+Leshka; 353; 27;
+Maksimka; 789; 18;
